@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("../img/white-fabric-texture-cloth-pattern_34168-1075.jpg");
+	background-size: cover no-repeat;
+	color: #FBD485;
+	line-height: 1.6;
+	text-align: center;
+	font-size: 1rem;
+	overflow-x: hidden;
+}
+
+
+/* header */
+
+.Title_image{
+  font-size: 80px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FBD485;
+	 text-shadow:  0 0 5px #222222;
+ 
+}
+
+
+.Subtitle_image{
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FBD485;
+	 text-shadow:  0 0 5px #222222;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Title_image {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FBD485;
+  
+}
+
+.Subtitle_image {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FBD485;
+}
+}
+
+/* Header2 */
+
+
+header.masthead {
+
+  background: no-repeat center center;
+
+  position: relative;
+  background-size: cover;
+	height: 400px;
+}
+
+header.masthead .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #0B7855;
+	opacity: 0.5;
+	color: #0B7855;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 150px 0 ;
+  color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 80px;
+  margin-top: 0;
+  align-self: center;
+	text-shadow:  0 0 5px #222222;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.1;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	color: #FBD485;
+	text-shadow:  0 0 5px #222222;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+	font-size: 80px;
+	top: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	color: #FBD485;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+	font-size: 40px;
+	top: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	color: #FBD485;
+  }
+	header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.1;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	color: #FBD485;
+	
+}
+}
+h1 {
+  font-size: 30px;
+}
+
+header.masthead  .meta,
+header.masthead  .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 ;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Description*/
+
+.info {
+	padding: 20px;
+	word-wrap: break-word;
+	align-content: center;
+	
+}
+
+.Title{
+	font-family: 'Open Sans', sans-serif;
+	color: #222222;
+	font-size: 35px;
+	padding-top: 40px;
+	font-weight: bold;
+	
+}
+.texto_info {
+	font-family: 'Open Sans', sans-serif;
+	color: #222222;
+	font-size: 20px;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.image_description_text{
+	font-family: 'Open Sans', sans-serif;
+	color: #222222;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.image_description{
+	border-radius: 15px;
+	align-self: center;
+	width: 700px;
+}
+
+.image_article{
+	align-content: center;
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.Title{
+	font-family: 'Open Sans', sans-serif;
+	color: #222222;
+	font-size: 25px;
+	padding-top: 20px;	
+}
+	.info {
+	padding: 5px;
+	word-wrap: break-word;
+	align-content: center;
+	
+}
+	.texto_info {
+	font-family: 'Open Sans', sans-serif;
+	color: #222222;
+	font-size: 15px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+	.image_description_text{
+	font-family: 'Open Sans', sans-serif;
+	color: #222222;
+	padding: 0px;
+	margin-top: 0px;
+	font-size: 10px;
+	}
+	
+	.image_description{
+	border-radius: 15px;
+	align-self: center;
+	width: 300px;
+	}
+
+	
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  background-color: #222222;
+  font-weight: 700; 
+  width: 100%;
+	padding: 10px 0px 0px 0px;
+  text-align: center;
+}
+
+
+.footer:before,
+.footer:after {
+    content:"";
+    display:table;
+    line-height:0;
+}
+.cf:after {
+    clear:both;
+}
+
+.footer_title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#f5f0f0;
+}
+
+.footer_text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#f5f0f0;
+}
+
+/* Hovers */
+.socialmedia:hover{
+	transition: 0.8s;
+	transform: scale(1.04);
+}
+
+.image_article :hover{
+	transition: 0.8s;
+	transform: scale(1.04);
+}
+
+.graphcard :hover{
+	transition: 0.8s;
+	transform: scale(1.04);
+}
+
+.titlegraphic:hover{
+	transform: scale(1.04);
+}
+
+.desriptiongraphic:hover{
+	transform: scale(1.04);
+}
+
+
+
+

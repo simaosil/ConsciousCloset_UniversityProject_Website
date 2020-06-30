@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("../img/white-fabric-texture-cloth-pattern_34168-1075.jpg");
+	background-size: cover no-repeat;
+	color: #FBD485;
+	line-height: 1.6;
+	text-align: center;
+	font-size: 1rem;
+}
+
+/* Witness */
+.LA{
+	padding-bottom: 500px;
+}
+
+/* header */
+
+header.masthead {
+
+  background: no-repeat center center;
+
+  position: relative;
+  background-size: cover;
+	height: 400px;
+}
+
+header.masthead .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+	opacity: 0.5;
+	color: #0B7855;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 150px 0 ;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 80px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 1.1;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	color: #FBD485;
+		text-shadow:  0 0 5px #222222;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+	font-size: 80px;
+	top: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	color: #FBD485;
+	  	text-shadow:  0 0 5px #222222;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+	font-size: 40px;
+	top: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	color: #FBD485;
+  }
+	
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 1.1;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	color: #FBD485;
+}
+}
+h1 {
+  font-size: 35px;
+}
+
+header.masthead  .meta,
+header.masthead  .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 ;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+  position: relative;
+  background-color: #222222;
+  font-weight: 700; 
+  width: 100%;
+	padding: 10px 0px 0px 0px;
+  text-align: center;
+}
+
+
+.footer:before,
+.footer:after {
+    content:"";
+    display:table;
+    line-height:0;
+}
+.cf:after {
+    clear:both;
+}
+
+.footer_title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#f5f0f0;
+}
+
+.footer_text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #f5f0f0;
+}
+
+/* Hovers*/
+.socialmedia:hover{
+	transition: 0.8s;
+	transform: scale(1);
+}
+
+.page-heading:hover{
+	transition: 0.8s;
+	transform: scale(1);
+}
+
+.btn:hover{
+	transition: 0.8s;
+	transform: scale(1.04);
+}
+
+
+

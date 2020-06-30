@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1rem;
+  font-weight:normal;
+  line-height:1.5;
+  color:#f5f0f0;
+  overflow-x:hidden;
+  background-image:url("../gif/gif_yes_video.gif") ;
+  background-size: cover;
+  overflow: hidden; /* Hide vertical scrollbar */
+}
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  text-align: center;
+  color:#fff;
+  align-content: center;
+}
+
+.container{
+  max-width:600px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+  align-content: center;
+}
+
+
+
+.header-overlay{
+  height:120%;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background-color: #222222;
+  opacity:0.6;
+}
+
+.header-content{
+  z-index:2;
+    position: absolute;
+	align-content: center;
+	text-align: center;
+
+}
+
+.header-content h1{
+	font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.header-content h2{
+	font-size: 45px;
+	margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.header-content h3{
+	font-size: 45px;
+	margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-content p{
+  font-size:1.5rem;
+  display:block;
+}
+
+.btn{
+  color:#f5f0f0;
+  font-size:15px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border: 3px solid;
+  border-color:#f5f0f0;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+	
+  
+ 
+}
+
+.btn:hover{
+	background-color: #f5f0f0;
+	border-color:#f5f0f0;
+	color:#222222;
+	font-size: 15px;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	transition: 0.6s;
+    text-align: center;
+ 
+}
