@@ -1,0 +1,3 @@
+[0512/210622.495:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffdd964bd28 of 12 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0512/210623.082:WARNING:process_snapshot_win.cc(71)] ReadMemory ExceptionInformation failed
+[0512/210623.082:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Foi efetuada uma tentativa de aceder a um processo de saída. (0xc000010a)
