@@ -1,0 +1,165 @@
+<!doctype html>
+
+<html lang="en">
+    
+  <head>
+	  <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+  <!-- Required meta tags -->
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>Conscious Closet</title>
+  <!-- TemplateEndEditable -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/css_fast_fashion.css">
+  <style>
+  /* Make the image fully responsive */
+
+.row {
+  position: relative;
+  text-align: center;
+  
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+     
+        
+      /* Para remover os paddings negativos da row */ 
+    .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+        }  
+        
+        
+        body, html{
+    margin:0;
+    padding:0;
+}
+        
+  </style>
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  <!-- TemplateParam name="class" type="text" value="nav-item" -->
+  </head>
+    
+    
+    
+    
+    
+
+<body>
+    
+      <!-- NAVBAR -->
+   
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+  
+    <a class="navbar-brand" href="index.html"><img src="../img/logo_website.png" width="210" height="auto" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+
+      <ul class="navbar-nav ml-auto">
+          
+
+        <li class="nav-item ">
+          <a class="nav-link" href="../Home.html">HOME
+          </a>
+        </li>
+          
+        <li class="nav-item ">
+          <a class="nav-link" href="../Fast_Fashion.html">FAST FASHION<span class="sr-only">(current)</span></a>
+        </li>
+          
+        <li class="nav-item">
+          <a class="nav-link" href="../Stories.html">STORIES</a>
+        </li>
+         
+        <li class="nav-item active">
+          <a class="nav-link" href="../Media.html">MEDIA</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="../Worldwide.html">WORLDWIDE</a>
+        </li>
+     
+		<li class="nav-item">
+          <a class="nav-link" href="../Contribution_Landing.html">YOUR CONTRIBUTION</a>
+        </li>
+     
+		<li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/consciousclose_/" target="_blank"><img class="socialmedia" src="../img/instagram.png" style="text-align: center" alt="Instagram Logo"></a></li>
+          
+		<li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/ConsciousClose_?fbclid=IwAR1lCEm7fOIS43jsmgdWeTXohxcS1VcLS9nmj4JrRHeKK1yLiiznCO7fogc" target="_blank"><img class="socialmedia" src="../img/twitter.png" style="text-align: center" alt="Twitter Logo"></a>
+        </li>
+      </ul>
+    </div>
+ 
+</nav>
+     
+<!-- Image First -->   
+      <div class="wrapper">
+      <div class="row"><!-- TemplateBeginEditable name="ImgMain" --><img src="../img/Team_Work.jpg" alt="Tropical Flowers" style="width:100%"><!-- TemplateEndEditable -->
+		  <div class="centered">
+        <div class="page-heading"><!-- TemplateBeginEditable name="TitleArticle" -->
+        <h1 class="Title_image">FAST FASHION</h1>
+        <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="SubtitleArticle" --><span class="Subtitle_image">aaaaaaaaaaaa</span><!-- TemplateEndEditable --></div>        
+  </div>
+</div>
+	  
+<!-- Artigo -->
+<div class="info ">
+		 
+	  <h1 class="Title"><!-- TemplateBeginEditable name="Title2" -->"Quote as a trial"<!-- TemplateEndEditable --></h1>
+	<br>
+	<!-- TemplateBeginEditable name="TextArticle1" -->
+	<p class="texto_info" style="text-align: left;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	<!-- TemplateEndEditable --></div>
+		 
+		<div><!-- TemplateBeginEditable name="Articleimg1" -->
+		  <div class="image_article">
+		    <!-- Imagem do artigo -->
+		    <img class="image_description" src="../img/tropical-flowers-pattern_52683-51.jpg" alt="image"></div>
+        <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Description1" -->
+        <p class="image_description_text" >aaaaaaaaaaa</p>
+        <!-- TemplateEndEditable --></div>
+		  
+	<div class="info "> <!-- Continuação de Artigo-->
+	  <!-- TemplateBeginEditable name="TextArticle2" -->
+	  <p class="texto_info" style="text-align: left;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <!-- TemplateEndEditable --></div>
+		  
+		<div><!-- TemplateBeginEditable name="Articleimg2" -->
+		  <div class="image_article">
+		    <!-- Imagem do artigo -->
+		    <img class="image_description" src="../img/tropical-flowers-pattern_52683-51.jpg" alt="image"></div>
+        <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="Description2" -->
+        <p class="image_description_text" >aaaaaaaaaaa</p>
+        <!-- TemplateEndEditable --></div>
+	
+		  
+	</div>
+	  
+<!-- Footer -->
+  <footer class="footer" id="footer">
+	  <p class="footer_title">CONSCIOUS <span style="font-family: 'Open Sans', sans-serif;">CLOSET®</span></p>
+	  <p class="footer_text">Sponsored by Universidade de Aveiro</p>
+</footer>
+	    
+	   
+		  </body>
+     
+</html>
